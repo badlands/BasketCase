@@ -22,6 +22,9 @@
 		A9FA40AF1EE2D8D40034C789 /* LocalBasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40AE1EE2D8D40034C789 /* LocalBasketTests.swift */; };
 		A9FA40B21EE2E2820034C789 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B11EE2E2820034C789 /* BasketViewController.swift */; };
 		A9FA40B41EE2E2980034C789 /* BasketEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B31EE2E2980034C789 /* BasketEntryCell.swift */; };
+		A9FA40B61EE35F430034C789 /* AddEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B51EE35F430034C789 /* AddEntryCell.swift */; };
+		A9FA40B81EE361E10034C789 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B71EE361E10034C789 /* AddProductViewController.swift */; };
+		A9FA40BA1EE363CF0034C789 /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B91EE363CF0034C789 /* InventoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		A9FA40AE1EE2D8D40034C789 /* LocalBasketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalBasketTests.swift; sourceTree = "<group>"; };
 		A9FA40B11EE2E2820034C789 /* BasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 		A9FA40B31EE2E2980034C789 /* BasketEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketEntryCell.swift; sourceTree = "<group>"; };
+		A9FA40B51EE35F430034C789 /* AddEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryCell.swift; sourceTree = "<group>"; };
+		A9FA40B71EE361E10034C789 /* AddProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		A9FA40B91EE363CF0034C789 /* InventoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 			children = (
 				A9FA40B11EE2E2820034C789 /* BasketViewController.swift */,
 				A9FA40B31EE2E2980034C789 /* BasketEntryCell.swift */,
+				A9FA40B51EE35F430034C789 /* AddEntryCell.swift */,
+				A9FA40B71EE361E10034C789 /* AddProductViewController.swift */,
+				A9FA40B91EE363CF0034C789 /* InventoryCell.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -252,12 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA40B81EE361E10034C789 /* AddProductViewController.swift in Sources */,
+				A9FA40B61EE35F430034C789 /* AddEntryCell.swift in Sources */,
 				A9FA40831EE2926E0034C789 /* ViewController.swift in Sources */,
 				A9FA40A41EE2930A0034C789 /* Basket.swift in Sources */,
 				A9FA40A71EE293CB0034C789 /* Inventory.swift in Sources */,
 				A9FA40811EE2926E0034C789 /* AppDelegate.swift in Sources */,
 				A9FA40AD1EE2960E0034C789 /* LocalBasket.swift in Sources */,
 				A9FA40A91EE2941B0034C789 /* LocalInventory.swift in Sources */,
+				A9FA40BA1EE363CF0034C789 /* InventoryCell.swift in Sources */,
 				A9FA40B41EE2E2980034C789 /* BasketEntryCell.swift in Sources */,
 				A9FA40B21EE2E2820034C789 /* BasketViewController.swift in Sources */,
 				A9FA40A21EE292A00034C789 /* Product.swift in Sources */,

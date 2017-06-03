@@ -35,4 +35,5 @@ protocol Product {
     var name: String { get }
     var price: Float { get }
     var unit: ProductUnit { get }
+    var imageName: String { get }
 }

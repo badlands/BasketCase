@@ -23,6 +23,7 @@ class BasketEntryCell: UITableViewCell {
         productNameLabel.text = entry.product.name
         productDescriptionLabel.text = "Price: \(entry.product.price) per \(entry.product.unit.name)"
         productQuantityLabel.text = "\(entry.quantity)"
+        productImageView.image = UIImage(named: entry.product.imageName)
     }
     
     @IBAction private func onAddTapped() {
