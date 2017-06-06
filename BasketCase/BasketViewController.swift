@@ -16,6 +16,7 @@ class BasketViewController: UIViewController {
     fileprivate let cellId = "basketEntryCell"
     fileprivate let addEntryCellId = "addEntryCell"
     fileprivate let segueAddProduct = "basket2add"
+    fileprivate let segueCheckout = "basket2checkout"
     
     fileprivate let basket = LocalBasket()
     fileprivate let inventory = LocalInventory()
@@ -53,6 +54,15 @@ class BasketViewController: UIViewController {
                 }
             }
         }
+        else if segueCheckout == segue.identifier {
+            if let vc = segue.destination as? CheckoutViewController {
+                vc.totalAmountInUSD = basket.totalPrice()
+            }
+        }
+    }
+    
+    @IBAction func unwindToBasket(segue: UIStoryboardSegue) {
+        
     }
 }
 

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93C05D41EE3DCD800A588DA /* RateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C05D31EE3DCD800A588DA /* RateProvider.swift */; };
+		A93C05D61EE5014200A588DA /* JsonRatesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C05D51EE5014200A588DA /* JsonRatesProvider.swift */; };
+		A93C05D81EE5FEAD00A588DA /* RateProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C05D71EE5FEAD00A588DA /* RateProviderTests.swift */; };
 		A9FA40811EE2926E0034C789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40801EE2926E0034C789 /* AppDelegate.swift */; };
-		A9FA40831EE2926E0034C789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40821EE2926E0034C789 /* ViewController.swift */; };
 		A9FA40861EE2926E0034C789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA40841EE2926E0034C789 /* Main.storyboard */; };
 		A9FA40881EE2926E0034C789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FA40871EE2926E0034C789 /* Assets.xcassets */; };
 		A9FA408B1EE2926E0034C789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FA40891EE2926E0034C789 /* LaunchScreen.storyboard */; };
@@ -25,6 +27,8 @@
 		A9FA40B61EE35F430034C789 /* AddEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B51EE35F430034C789 /* AddEntryCell.swift */; };
 		A9FA40B81EE361E10034C789 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B71EE361E10034C789 /* AddProductViewController.swift */; };
 		A9FA40BA1EE363CF0034C789 /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40B91EE363CF0034C789 /* InventoryCell.swift */; };
+		A9FA40BC1EE36AD80034C789 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A9FA40BB1EE36AD80034C789 /* README */; };
+		A9FA40BE1EE3D6FE0034C789 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA40BD1EE3D6FE0034C789 /* CheckoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A93C05D31EE3DCD800A588DA /* RateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateProvider.swift; sourceTree = "<group>"; };
+		A93C05D51EE5014200A588DA /* JsonRatesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonRatesProvider.swift; sourceTree = "<group>"; };
+		A93C05D71EE5FEAD00A588DA /* RateProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateProviderTests.swift; sourceTree = "<group>"; };
 		A9FA407D1EE2926E0034C789 /* BasketCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA40801EE2926E0034C789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9FA40821EE2926E0034C789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9FA40851EE2926E0034C789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9FA40871EE2926E0034C789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9FA408A1EE2926E0034C789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +66,8 @@
 		A9FA40B51EE35F430034C789 /* AddEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryCell.swift; sourceTree = "<group>"; };
 		A9FA40B71EE361E10034C789 /* AddProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 		A9FA40B91EE363CF0034C789 /* InventoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
+		A9FA40BB1EE36AD80034C789 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A9FA40BD1EE3D6FE0034C789 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		A9FA40741EE2926D0034C789 = {
 			isa = PBXGroup;
 			children = (
+				A9FA40BB1EE36AD80034C789 /* README */,
 				A9FA407F1EE2926E0034C789 /* BasketCase */,
 				A9FA40941EE2926E0034C789 /* BasketCaseTests */,
 				A9FA407E1EE2926E0034C789 /* Products */,
@@ -102,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				A9FA40801EE2926E0034C789 /* AppDelegate.swift */,
-				A9FA40821EE2926E0034C789 /* ViewController.swift */,
 				A9FA40841EE2926E0034C789 /* Main.storyboard */,
 				A9FA40B01EE2E1000034C789 /* UI */,
 				A9FA40A51EE293B00034C789 /* Business Logic */,
@@ -121,6 +129,7 @@
 				A9FA40971EE2926E0034C789 /* Info.plist */,
 				A9FA40AA1EE295750034C789 /* LocalInventoryTests.swift */,
 				A9FA40AE1EE2D8D40034C789 /* LocalBasketTests.swift */,
+				A93C05D71EE5FEAD00A588DA /* RateProviderTests.swift */,
 			);
 			path = BasketCaseTests;
 			sourceTree = "<group>";
@@ -131,6 +140,7 @@
 				A9FA40A61EE293CB0034C789 /* Inventory.swift */,
 				A9FA40A11EE292A00034C789 /* Product.swift */,
 				A9FA40A31EE2930A0034C789 /* Basket.swift */,
+				A93C05D31EE3DCD800A588DA /* RateProvider.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -140,6 +150,7 @@
 			children = (
 				A9FA40A81EE2941B0034C789 /* LocalInventory.swift */,
 				A9FA40AC1EE2960E0034C789 /* LocalBasket.swift */,
+				A93C05D51EE5014200A588DA /* JsonRatesProvider.swift */,
 			);
 			name = "Business Logic";
 			sourceTree = "<group>";
@@ -152,6 +163,7 @@
 				A9FA40B51EE35F430034C789 /* AddEntryCell.swift */,
 				A9FA40B71EE361E10034C789 /* AddProductViewController.swift */,
 				A9FA40B91EE363CF0034C789 /* InventoryCell.swift */,
+				A9FA40BD1EE3D6FE0034C789 /* CheckoutViewController.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FA40BC1EE36AD80034C789 /* README in Resources */,
 				A9FA408B1EE2926E0034C789 /* LaunchScreen.storyboard in Resources */,
 				A9FA40881EE2926E0034C789 /* Assets.xcassets in Resources */,
 				A9FA40861EE2926E0034C789 /* Main.storyboard in Resources */,
@@ -261,9 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93C05D61EE5014200A588DA /* JsonRatesProvider.swift in Sources */,
 				A9FA40B81EE361E10034C789 /* AddProductViewController.swift in Sources */,
+				A9FA40BE1EE3D6FE0034C789 /* CheckoutViewController.swift in Sources */,
 				A9FA40B61EE35F430034C789 /* AddEntryCell.swift in Sources */,
-				A9FA40831EE2926E0034C789 /* ViewController.swift in Sources */,
 				A9FA40A41EE2930A0034C789 /* Basket.swift in Sources */,
 				A9FA40A71EE293CB0034C789 /* Inventory.swift in Sources */,
 				A9FA40811EE2926E0034C789 /* AppDelegate.swift in Sources */,
@@ -272,6 +286,7 @@
 				A9FA40BA1EE363CF0034C789 /* InventoryCell.swift in Sources */,
 				A9FA40B41EE2E2980034C789 /* BasketEntryCell.swift in Sources */,
 				A9FA40B21EE2E2820034C789 /* BasketViewController.swift in Sources */,
+				A93C05D41EE3DCD800A588DA /* RateProvider.swift in Sources */,
 				A9FA40A21EE292A00034C789 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93C05D81EE5FEAD00A588DA /* RateProviderTests.swift in Sources */,
 				A9FA40AF1EE2D8D40034C789 /* LocalBasketTests.swift in Sources */,
 				A9FA40AB1EE295750034C789 /* LocalInventoryTests.swift in Sources */,
 				A9FA40961EE2926E0034C789 /* BasketCaseTests.swift in Sources */,
@@ -484,6 +500,7 @@
 				A9FA409C1EE2926E0034C789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FA409D1EE2926E0034C789 /* Build configuration list for PBXNativeTarget "BasketCaseTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				A9FA409F1EE2926E0034C789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

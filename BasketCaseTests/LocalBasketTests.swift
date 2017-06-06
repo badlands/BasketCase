@@ -29,39 +29,7 @@ class LocalBasketTests: XCTestCase {
         
         XCTAssertEqual(1, basket.numberOfItems())
     }
-    
-//    func test_Contains() {
-//        let product = PeaProduct()
-//        
-//        XCTAssertFalse(basket.contains(product))
-//        basket.add(product, quantity: 10)
-//        XCTAssertTrue(basket.contains(product))
-//        
-////        basket.contains(<#T##product: Product##Product#>)
-////        basket.entry(of: <#T##Product#>)
-////        basket.entryIndex(of: <#T##Product#>)
-////        
-////        basket.remove(<#T##product: Product##Product#>, quantity: <#T##Int#>)
-////        basket.removeAll(<#T##product: Product##Product#>)
-////        basket.totalPrice()
-//    }
-    
-//    func test_EntryOfProduct() {
-//        let product = PeaProduct()
-//        
-//        basket.add(product, quantity: 10)
-//        let entry = basket.entry(of: product)
-//        XCTAssertNotNil(entry)
-//    }
-//    
-//    func test_EntryIndexOfProduct() {
-//        let product = PeaProduct()
-//        
-//        basket.add(product, quantity: 10)
-//        let index = basket.entryIndex(of: product)
-//        XCTAssertEqual(0, index)
-//    }
-    
+
     func test_RemoveProduct() {
         let product = PeaProduct()
         basket.add(product, quantity: 10)
@@ -117,8 +85,7 @@ class LocalBasketTests: XCTestCase {
         let product2 = BeanProduct()
         basket.add(product2, quantity: 10)
         let expectedPrice = product.price + product2.price * 10
-        XCTAssertEqual(expectedPrice, basket.totalPrice())
-        
+        XCTAssertEqual(expectedPrice, basket.totalPrice())        
     }
     
     func test_QuantityOfProduct() {
